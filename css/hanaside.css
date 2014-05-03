@@ -6,6 +6,7 @@
   position: fixed;
   overflow: auto;
   background: white;
+  z-index: 11;
 }
 .hanaside-left.slow,
 .hanaside-right.slow,

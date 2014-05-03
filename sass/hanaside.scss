@@ -7,6 +7,7 @@
     position: fixed;
     overflow: auto;
     background: white;
+    z-index: 11;
     
     &.slow{
         -webkit-transition: all 1s;
