@@ -1,0 +1,19 @@
+// Some common variables and mixins to get you started.
+
+$base-font: Helvetica, Arial, sans-serif;
+$header-font: $base-font; // you can refer to other variables
+
+// base color scheme
+$body-background: #fff;
+$super-black: black;
+$black: #363636;
+$grey: lightgrey;
+$white: white;
+$text-color: #404040;
+$link-color: $text-color;
+$link-visited: none;
+
+// Supported Values for $layout:
+//  null | content-sidebar | sidebar-content
+$layout: null !default;
+$vspacing: 1.5em;
