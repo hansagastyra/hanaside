@@ -5,36 +5,37 @@
 .hanaside-bottom {
   position: fixed;
   overflow: auto;
+  background: white;
 }
 .hanaside-left.slow,
 .hanaside-right.slow,
 .hanaside-top.slow,
 .hanaside-bottom.slow {
-  -webkit-transition: left 1s;
-  -moz-transition: left 1s;
-  -ms-transition: left 1s;
-  -o-transition: left 1s;
-  transition: left 1s;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
 }
 .hanaside-left.standard,
 .hanaside-right.standard,
 .hanaside-top.standard,
 .hanaside-bottom.standard {
-  -webkit-transition: left 0.5s;
-  -moz-transition: left 0.5s;
-  -ms-transition: left 0.5s;
-  -o-transition: left 0.5s;
-  transition: left 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
 }
 .hanaside-left.fast,
 .hanaside-right.fast,
 .hanaside-top.fast,
 .hanaside-bottom.fast {
-  -webkit-transition: left 0.25s;
-  -moz-transition: left 0.25s;
-  -ms-transition: left 0.25s;
-  -o-transition: left 0.25s;
-  transition: left 0.25s;
+  -webkit-transition: all 0.25s;
+  -moz-transition: all 0.25s;
+  -ms-transition: all 0.25s;
+  -o-transition: all 0.25s;
+  transition: all 0.25s;
 }
 
 .hanaside-left,
